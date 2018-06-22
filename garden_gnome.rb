@@ -6,7 +6,7 @@ class GardenGnome
   def initailize(personality, hat_color ="red")
     @personality = "evil"
   end
-  def personality = (personality)
+  def personality= (personality)
     @personality = "evil"
   end
 
@@ -23,3 +23,5 @@ green = GardenGnome.new
 
   def introduce_self
     "Hello humans, my name is Hubert, I am 267 years old, and you'll rue the day you crossed me!"
+end
+end
